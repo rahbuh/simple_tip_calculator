@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+  width: 400px;
+  margin: 10px auto;
+}
+
+.container {
+  text-align: center;
+}
+
+#amount {
+  font-size: 1.25rem;
+  text-align: right;
+  padding: 5px;
+}
+
+#totals-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+
+button {
+  width: 80px;
+  padding: 5px 0;
+}
+
+.button-wrapper {
+  margin: 20px 0;
+}
