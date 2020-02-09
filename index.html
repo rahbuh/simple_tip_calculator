@@ -10,22 +10,24 @@
     <div id="main">
       <h1>Simple Tip Calculator</h1>
       <div class="container">
-        <label for="amount"
-          >Bill Amount:
-          <input type="number" name="amount" id="amount" step="0.01" placeholder="0.00"/>
+        <label for="amount">Bill Amount:
+          <input type="number" name="amount" id="amount" step="0.01" placeholder="0.00" />
         </label>
+
         <div id="totals-display">
           <span>Tip Amount:</span>
           <div id="display-tip-amt">0.00</div>
           <span>Total Amount:</span>
           <div id="display-total">0.00</div>
         </div>
+
         <div class="button-wrapper">
           <button class="percent-btn" id="15percent">15%</button>
           <button class="percent-btn" id="18percent">18%</button>
           <button class="percent-btn" id="20percent">20%</button>
         </div>
         <button id="clear-btn">clear</button>
+        <div id="selectedTip"></div>
       </div>
     </div>
 

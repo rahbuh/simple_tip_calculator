@@ -22,7 +22,13 @@ body {
   grid-template-columns: 1fr 1fr;
   row-gap: 10px;
   font-size: 1.25rem;
-  margin: 20px 0;
+  width: 80%;
+  margin: 20px auto;
+}
+
+#display-tip-amt,
+#display-total {
+  text-align: right;
 }
 
 button {
@@ -32,4 +38,9 @@ button {
 
 .button-wrapper {
   margin: 20px 0;
+}
+
+#selectedTip {
+  margin: 20px 0;
+  color: blue;
 }
